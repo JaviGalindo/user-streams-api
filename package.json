@@ -1,0 +1,19 @@
+{
+  "name": "user-streams-api",
+  "version": "1.0.0",
+  "description": "Service to manage streams from users",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest ./*test.js --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "supertest": "^6.1.5"
+  }
+}
