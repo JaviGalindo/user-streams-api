@@ -3,18 +3,18 @@ const app = require("../src/app");
 
 const successfulScenarios = [
     {
-        "userId": 1,
+        "userId": "3e4e6e36-cbd2-4da2-bc38-d530bc528c9d",
         "numStreams": 1
     },
     {
-        "userId": 2,
+        "userId": "bf49d24e-7737-4b27-a353-90a450b24028",
         "numStreams": 2
     }
 ];
 
 const errorScenarios = [
     {
-        "userId": 3,
+        "userId": "2564be69-2df9-495f-b077-1e93789c59bc",
         "code": 403,
         "message": "This user has already 3 concurrent streamings"
     }
