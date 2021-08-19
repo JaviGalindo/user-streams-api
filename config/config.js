@@ -1,4 +1,5 @@
 module.exports = {
     "SERVER_PORT":3000,
-    "MAX_NUM_STREAM_CONCURRENTLY": 3
+    "MAX_NUM_STREAM_CONCURRENTLY": 3,
+    "LOGGER_LEVEL": "info"
 };
